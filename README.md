@@ -5,7 +5,12 @@
 **Logging type:** user can choose to log messages in file or database or both.
 > User can set logging type to DB or File or FileAndDB to get desired logging.
 
-Customization: User defined filename, path location, database credentials and many other parameters.
+**Customization:** User defined 
+1. filename 
+2. path location 
+3. database credentials 
+
+and many other parameters.
 Many setter functions have been written to set many private variables.
 set_location, set_type, set_level, set_db_credentails, set_file_name, set_concatenator, set_end_of_entry, set_retry_interval, set_retry_count
 “set” function is written to set any configuration variable. Refer to function’s signature to identify which parameter should be passed to set which parameter.
