@@ -6,9 +6,11 @@
 > User can set logging type to DB or File or FileAndDB to get desired logging.
 
 **Customization:** User defined 
-1. filename 
-2. path location 
-3. database credentials 
+<ol>
+  <li>filename</li>
+  <li>path location</li>
+  <li>database credentials</li>
+</ol>
 
 and many other parameters.
 Many setter functions have been written to set many private variables.
