@@ -2,7 +2,7 @@
 
 **Description:**
 
-*Logging type:* user can choose to log messages in file or database or both.
+**Logging type:** user can choose to log messages in file or database or both.
 > User can set logging type to DB or File or FileAndDB to get desired logging.
 
 Customization: User defined filename, path location, database credentials and many other parameters.
