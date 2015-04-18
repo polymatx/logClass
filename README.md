@@ -1,6 +1,6 @@
 #PHP Logger
 
-Description:
+**Description:**
 
 Logging type: user can choose to log messages in file or database or both.
 User can set logging type to DB or File or FileAndDB to get desired logging.
