@@ -20,17 +20,17 @@ Many setter functions have been written to set many private variables.<br />
 **Omitting logs:** functionality to omit logs, depending on their severity.
 You can set you global logging level through “set_level” function.
 Enumeration has been defined for logging level.<br />
-```
+
 <ul>
   <li>const Error = 4;</li>
   <li>const Warning = 3;</li>
   <li>const Debug = 2;</li>
   <li>const Info = 1;</li>
 </ul>
-```
+
 Value from above enumeration must be passed in “write” method. Refer to sample example(logging_tester.php). 
 All messages passed with logging level greater than global logging level will be printed.
 You can set global logging level to high or low to include and exclude logs. You can define your own logging levels as much you want and set global logging level accordingly.
 
-Retry mechanism:  When script is going to write on the file, if file is used by another process or for some reason script was unable to write on the file, script has functionality to retry again after specified interval up to specified retry-counts.
+**Retry mechanism:**  When script is going to write on the file, if file is used by another process or for some reason script was unable to write on the file, script has functionality to retry again after specified interval up to specified retry-counts. <br />
 Retry interval and retry count are by default 10, defined in class constructor. You can set according to your need with set_retry_interval, set_retry_count setter functions.
