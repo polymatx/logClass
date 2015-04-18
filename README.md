@@ -11,14 +11,13 @@
   <li>path location</li>
   <li>database credentials</li>
 </ol>
-
-and many other parameters.
+and many other parameters.<br/>
 Many setter functions have been written to set many private variables.
 set_location, set_type, set_level, set_db_credentails, set_file_name, set_concatenator, set_end_of_entry, set_retry_interval, set_retry_count
 “set” function is written to set any configuration variable. Refer to function’s signature to identify which parameter should be passed to set which parameter.
 
 
-Omitting logs: functionality to omit logs, depending on their severity.
+**Omitting logs:** functionality to omit logs, depending on their severity.
 You can set you global logging level through “set_level” function.
 Enumeration has been defined for logging level.
 const Error = 4;
